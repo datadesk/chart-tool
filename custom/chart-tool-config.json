@@ -2,7 +2,7 @@
 
   "CUSTOM": false,
 
-  "prefix": "la-",
+  "prefix": "ct-",
   "monthsAbr": ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan."],
 
   "debounce": 500,
