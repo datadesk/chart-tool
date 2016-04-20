@@ -5,7 +5,7 @@
   <div class="edit-box">
     <h3>Data</h3>
 
-    <div class="unit-edit edit-box_toggle edit-box_active" data-state="visible">
+    <div class="unit-edit edit-box_active" data-state="visible">
 
       <div class="unit-edit">
         <h4>Data</h4>
@@ -54,7 +54,7 @@
 
   <div class="edit-box">
     <h3>X-axis</h3>
-    <div class="unit-edit edit-box_toggle" data-state="hidden">
+    <div class="unit-edit" data-state="visible">
 
       {{ #if isBarChart false }}
 
@@ -137,7 +137,7 @@
 
   <div class="edit-box">
     <h3>Y-axis</h3>
-    <div class="edit-box_toggle" data-state="hidden">
+    <div class="" data-state="visible">
 
     {{ #if isBarChart false }}
       <div class="unit-edit">
@@ -198,7 +198,7 @@
 
   <div class="edit-box">
     <h3>Styling</h3>
-    <div class="edit-box_toggle" data-state="hidden">
+    <div data-state="visible">
 
       <div class="unit-edit color-edit">
         <h4>Pick a colour palette</h4>
@@ -244,7 +244,7 @@
 
   <div class="edit-box">
     <h3>Options</h3>
-    <div class="edit-box_toggle" data-state="hidden">
+    <div data-state="visible">
       <div class="unit-edit share-data-edit">
         <h4>Share data <a href="#" class="help-toggle help-share-data">?</a></h4>
         <input class="input-checkbox-share-data" type="checkbox" name="Share" checked="{{ options.share_data }}">

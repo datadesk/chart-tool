@@ -155,3 +155,37 @@ $nine-pt: 12.0px; // actually renders at 9.22pt
   }
 
 }
+
+// Layout
+.index-edit {
+  display:none;
+}
+.chart-preview {
+  float:none;
+}
+.mobile-preview, .mobile-preview:last-child{
+  float:right;
+  margin-right: 1.55951%;
+}
+.desktop-preview, .embed-code, .download {
+  float:none;
+  width:auto;
+}
+.embed-code {
+  margin-top:20px;
+}
+.export-button {
+  width:49%;
+  margin-right:1%;
+}
+.export-button:last-child {
+  margin-right:0;
+}
+
+// Inputs
+.x-axisval-edit .input-field, .y-axisval-edit .input-field {
+  width:4.4em;
+}
+.input-ticks-x, .input-ticks-y {
+  width:4.4em;
+}

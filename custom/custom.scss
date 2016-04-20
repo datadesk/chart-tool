@@ -1,3 +1,4 @@
+// Chart text
 .#{$prefix}chart_title {
     color: $black;
 }
@@ -10,11 +11,11 @@
 
 // Axes
 .#{$prefix}zero-line {
-    stroke: $verylightgray;
+    stroke: $zero-line-color;
 }
 
 .#{$prefix}axis-group g.tick line {
-    stroke: $verylightgray;
+    stroke: $grid-line-color;
 }
 
 .#{$prefix}axis-group text {

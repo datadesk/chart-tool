@@ -27,7 +27,7 @@
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
-  line-height: 31px; }
+  line-height: 24px; }
 
 .la-g-chart_legend {
   padding: 4px 0; }
@@ -38,8 +38,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-chart_legend .la-g-legend_item .la-g-legend_item_text {
   display: inline;
@@ -66,8 +66,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-chart_qualifier-bar {
   margin-top: 2px; }
@@ -87,8 +87,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-primary .la-g-chart_legend .la-g-legend_item_1 .la-g-legend_item_icon {
   background: #006da2; }
@@ -149,8 +149,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-axis-group path {
   shape-rendering: crispEdges;
@@ -177,8 +177,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 23px;
   padding-top: 10px;
   padding-left: 0;
   display: block;
@@ -207,15 +207,15 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-tip_text-date {
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 23px;
   font-weight: bold; }
 
 .la-g-tip_line-x {
@@ -446,8 +446,8 @@
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 23px;
   font-size: 11px;
   color: #999;
   border-right: 1px solid #999; }
@@ -1046,14 +1046,14 @@
   width: 100%;
   height: auto;
   background-color: #fff;
-  margin: 0 0 20px 0;
+  margin: 0 20px 20px 0;
   position: relative;
   overflow: hidden;
   font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 20px;
+  line-height: 23px; }
 
 .la-g-thumbnail {
   width: 100%; }

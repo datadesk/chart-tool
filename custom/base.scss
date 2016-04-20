@@ -1,7 +1,7 @@
 // Basic settings, custom
 $prefix: "la-g-";
 $width: 100%;
-$margin: 0 0 20px 0;
+$margin: 0 20px 20px 0;
 
 
 // Fonts
@@ -10,13 +10,13 @@ $heading-font-family: "Benton Gothic Bold", "Helvetica", Arial, sans-serif;
 $heading-font-weight: normal;
 $heading-font-style: normal;
 $heading-font-size: 24px;
-$heading-font-line-height: 31px;
+$heading-font-line-height: 24px;
 
 $utility-font-family: "Benton Gothic Regular", "Helvetica", Arial, sans-serif;
 $utility-font-weight: normal;
 $utility-font-style: normal;
-$utility-font-size: 16px;
-$utility-font-line-height: 22px;
+$utility-font-size: 20px;
+$utility-font-line-height: 23px;
 
 
 @mixin heading-font {
@@ -54,14 +54,34 @@ $alternate-shade-5: #fee5d9;
 $alternateShades: $alternate-shade-1, $alternate-shade-2, $alternate-shade-3, $alternate-shade-4, $alternate-shade-5;
 
 $black: #000;
+$darkgray: #333;
 $text: #666;
 $lightgray: #999;
 $verylightgray: #ddd;
 $white : #fff;
 
 $axis-stroke-color: $text;
+$grid-line-color: $verylightgray;
+$zero-line-color: $verylightgray;
 $axis-stroke-width: 1px;
 $axis-stroke-dasharray: 2, 4px;
 $line-stroke-width: 2px;
 
 $series-count-max: 5;
+
+// Overall color palette, in case we can build this in
+// $chart-colors = \
+//     #d17334 \
+//     #006da2 \
+//     #b93d36 \
+//     #245d37 \
+//     #875e47 \
+//     #926a2b \
+//     #c1963f \
+//     #544987 \
+//     #d0693a \
+//     #a82f42 \
+//     #333 \
+//     #666 \
+//     #999 \
+//     #ccc
