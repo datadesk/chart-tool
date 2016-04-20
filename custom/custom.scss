@@ -1,0 +1,27 @@
+.#{$prefix}chart_title {
+    color: $black;
+}
+
+.#{$prefix}chart_source {
+    text-transform:none;
+    color: $lightgray;
+}
+
+
+// Axes
+.#{$prefix}zero-line {
+    stroke: $verylightgray;
+}
+
+.#{$prefix}axis-group g.tick line {
+    stroke: $verylightgray;
+}
+
+.#{$prefix}axis-group text {
+    fill: $text;
+}
+
+// Tip line
+.#{$prefix}tip_line-x {
+    stroke: $lightgray;
+}

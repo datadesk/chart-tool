@@ -2,7 +2,7 @@
 
   "CUSTOM": false,
 
-  "prefix": "ct-",
+  "prefix": "la-g-",
   "monthsAbr": ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan."],
 
   "debounce": 500,
@@ -94,8 +94,8 @@
   },
 
   "source": {
-    "prefix": "CHART TOOL",
-    "suffix": " » SOURCE:"
+    "prefix": "Source: ",
+    "suffix": ""
   },
 
   "social": {
@@ -108,7 +108,7 @@
     "twitter": {
       "label": "Twitter",
       "icon": "https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-social-twitter.svg",
-      "via": "",
+      "via": "latimesgraphics",
       "hashtag": ""
     },
     "email": {
