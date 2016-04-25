@@ -1,5 +1,4 @@
 {
-
   "CUSTOM": false,
 
   "prefix": "la-g-",
@@ -35,7 +34,7 @@
   "yAxis": {
     "display": true,
     "scale": "linear",
-    "ticks": "auto",
+    "ticks": "5",
     "orient": "right",
     "format": "comma",
     "prefix": "",

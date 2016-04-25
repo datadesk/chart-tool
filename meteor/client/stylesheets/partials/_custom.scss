@@ -157,10 +157,37 @@ $nine-pt: 12.0px; // actually renders at 9.22pt
 }
 
 // Layout
-.index-edit {
-  display:none;
+section {
+  max-width:70%;
 }
-.chart-preview {
+.chart-types {
+  border:1px solid $text;
+  border-radius:6px;
+  padding: 0.3em 1em 0.3em 0.5em;
+  margin-bottom:0;
+}
+.selector-button {
+  position:relative;
+  display:inline-block;
+}
+.selector-button:after {
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #666;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  right: 7px;
+  pointer-events: none;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.chart-selector, .chart-preview {
   float:none;
 }
 .mobile-preview, .mobile-preview:last-child{
@@ -182,10 +209,30 @@ $nine-pt: 12.0px; // actually renders at 9.22pt
   margin-right:0;
 }
 
+// Aside bar
+.select-date-construction {
+  border-radius: 6px;
+}
+.interpolation-edit {
+  display:none;
+}
+.index-edit {
+  display:none;
+}
+
+// Text stylings
+.chart-preview h5 {
+  color: $text;
+  border-bottom: 1px solid $verylightgray;
+}
+
 // Inputs
 .x-axisval-edit .input-field, .y-axisval-edit .input-field {
   width:4.4em;
 }
 .input-ticks-x, .input-ticks-y {
   width:4.4em;
+}
+.radio-buttons .input-radio:checked, .print-export-form .input-radio:checked{
+  background-color: $text;
 }

@@ -3,12 +3,11 @@
   {{ > yield "status" }}
 
   <div class="edit-box">
-    <h3>Data</h3>
+    <h3>Paste your data</h3>
 
     <div class="unit-edit edit-box_active" data-state="visible">
 
       <div class="unit-edit">
-        <h4>Data</h4>
         <textarea type="text" name="pasteData" placeholder="Paste your spreadsheet data here" class="input-data-edit">{{ data }}</textarea>
       </div>
 
@@ -53,7 +52,7 @@
   </div>
 
   <div class="edit-box">
-    <h3>X-axis</h3>
+    <h3>X-axis options</h3>
     <div class="unit-edit" data-state="visible">
 
       {{ #if isBarChart false }}
@@ -136,7 +135,7 @@
   </div>
 
   <div class="edit-box">
-    <h3>Y-axis</h3>
+    <h3>Y-axis options</h3>
     <div class="" data-state="visible">
 
     {{ #if isBarChart false }}
@@ -243,7 +242,7 @@
   </div>
 
   <div class="edit-box">
-    <h3>Options</h3>
+    <h3>Additional options</h3>
     <div data-state="visible">
       <div class="unit-edit share-data-edit">
         <h4>Share data <a href="#" class="help-toggle help-share-data">?</a></h4>
